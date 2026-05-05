@@ -14,4 +14,5 @@
 !.config/systemd/
 !.config/systemd/user/
 !.config/systemd/user/ashell.service
+!README.md
 
