@@ -1,4 +1,4 @@
 # My Home Directory
 nothing useful here :) \
-for syncing config between my pc and my phone \
+for syncing configs between my pc and my phone
 
