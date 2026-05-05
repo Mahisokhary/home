@@ -1,0 +1,6 @@
+[Unit]
+Description=Just fucking ashell
+
+[Service]
+ExecStart=ashell
+

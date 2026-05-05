@@ -1,0 +1,17 @@
+# Ignore all files
+*
+
+# Add specific needed config
+!.gitignore
+!.p10k.zsh
+!.vimrc
+!.zshrc
+!.config/
+!.config/ashell/
+!.config/ashell/config.toml
+!.config/hypr/
+!.config/hypr/hyprland.conf
+!.config/systemd/
+!.config/systemd/user/
+!.config/systemd/user/ashell.service
+
