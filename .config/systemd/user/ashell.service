@@ -4,3 +4,5 @@ Description=Just fucking ashell
 [Service]
 ExecStart=ashell
 
+[Install]
+WantedBy=graphical-session.target
