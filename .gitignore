@@ -22,3 +22,7 @@
 !.config/waybar/config.jsonc
 !.config/waybar/style.css
 
+# Bins
+!.local/
+!.local/bin/
+
