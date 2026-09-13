@@ -1,0 +1,13 @@
+# Vim Bundles
+[submodule "vim-bundle-nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "vim-bundle-wakatime"]
+	path = .vim/bundle/wakatime
+	url = https://github.com/wakatime/vim-wakatime.git
+[submodule "vim-bundle-lightline"]
+	path = .vim/bundle/lightline
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "vim-bundle-colors-solarized"]
+	path = .vim/bundle/colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

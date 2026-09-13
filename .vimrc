@@ -3,27 +3,13 @@ syntax on
 set laststatus=2
 set background=dark
 set number
-
-" Vundle
 set nocompatible
+
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-
-" Wakatime to track ur code time
-Plugin 'wakatime/vim-wakatime'
-
-" Make explorer better
-Plugin 'preservim/nerdtree'
-
-" Make status bar better
-Plugin 'itchyny/lightline.vim'
-
-" Add color scheme
-Plugin 'altercation/vim-colors-solarized'
-
-call vundle#end()
+set rtp+=~/.vim/bundle/wakatime
+set rtp+=~/.vim/bundle/nerdtree
+set rtp+=~/.vim/bundle/lightline
+set rtp+=~/.vim/bundle/colors-solarized
 filetype plugin indent on
 
 " Set solcarized color scheme and fix it for terminals

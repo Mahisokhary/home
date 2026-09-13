@@ -3,8 +3,8 @@
 
 # Add specific needed config
 !.gitignore
+!.gitmodules
 !.p10k.zsh
-!.vimrc
 !.zshrc
 !.config/
 !.config/ashell/
@@ -15,4 +15,10 @@
 !.config/systemd/user/
 !.config/systemd/user/ashell.service
 !README.md
+
+# Vim
+!.vimrc
+!.vim/
+!.vim/bundle/
+!.vim/bundle/**
 
