@@ -7,13 +7,8 @@
 !.p10k.zsh
 !.zshrc
 !.config/
-!.config/ashell/
-!.config/ashell/config.toml
 !.config/hypr/
 !.config/hypr/hyprland.conf
-!.config/systemd/
-!.config/systemd/user/
-!.config/systemd/user/ashell.service
 !README.md
 
 # Vim
