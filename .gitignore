@@ -25,4 +25,5 @@
 # Bins
 !.local/
 !.local/bin/
+!.local/bin/wakasync
 

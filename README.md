@@ -5,7 +5,7 @@ for syncing configs between my pc and my phone
 # Dependency
 
 ## Vim
-- Git
+- git
 
 ## Hyprland
 - waybar (status bar)
