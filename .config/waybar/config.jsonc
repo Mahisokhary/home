@@ -1,0 +1,77 @@
+{
+	"position": "top",
+	"height": 39,
+	"spacing": 4,
+	"style": "~/.config/waybar/style.css",
+	"modules-left": [
+		"hyprland/workspaces",
+		"tray",
+	],
+	"modules-center": [
+		"clock",
+		"mpris",
+	],
+	"modules-right": [
+		"bluetooth",
+		"pulseaudio",
+		"network",
+	],
+	"bluetooth": {
+		"on-click": "kitty --title \"waybar-bluetoothctl\" -e bluetoothctl"
+	},
+	"mpris": {
+		"format": "{artist} - {title}",
+		"ignored-players": ["chromium"],
+		"title-len": 20,
+		"artist-len": 20,
+	},
+	"hyprland/workspaces": {
+		"show-special": true,
+		"disable-scroll": true,
+		"all-outputs": true,
+		"warp-on-scroll": false,
+		"format": "{icon}",
+		"format-icons": {
+			"1": "",
+			"19": "",
+			"20": "",
+			"special": "",
+		},
+		"sort-by": "id",
+	 },
+	"tray": {
+		"spacing": 10,
+	},
+	"clock": {
+		"format": "{:%A %Y-%m-%d %H:%M}",
+		"tooltip-format": "{:%d %B %Y}",
+	},
+	"cpu": {
+		"format": "{usage}% ",
+	},
+	"memory": {
+		"format": "{}% "
+	},
+	"temperature": {
+		"critical-threshold": 80,
+		"format": "{temperatureC}°C {icon}",
+		"format-icons": ["", "", ""]
+	},
+	"network": {
+		"interface": "wlan0",
+		"format-wifi": " ",
+		"format-ethernet": "",
+		"tooltip-format": "{ifname} via {gwaddr} ",
+		"format-linked": "",
+		"format-disconnected": "⚠",
+		"on-click": "kitty --title \"waybar-iwctl\" -e iwctl"
+	},
+	"pulseaudio": {
+		"scroll-step": 5,
+		"format": "{volume}% {icon}",
+		"format-icons": {
+			"default": ["", "", " "]
+		},
+		"on-click": "pavucontrol"
+	},
+}

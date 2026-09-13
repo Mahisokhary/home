@@ -22,3 +22,8 @@
 !.vim/bundle/
 !.vim/bundle/**
 
+# Waybar
+!.config/waybar/
+!.config/waybar/config.jsonc
+!.config/waybar/style.css
+
