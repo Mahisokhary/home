@@ -10,6 +10,7 @@
 !.config/hypr/
 !.config/hypr/hyprland.conf
 !README.md
+!LICENSE
 
 # Vim
 !.vimrc
