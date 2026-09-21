@@ -30,4 +30,7 @@
 !.zshrc
 !.p10k.zsh
 !.oh-my-zsh/
+!.omz/
+!.omz/theme
+!.omz/theme/powerlevel10k
 

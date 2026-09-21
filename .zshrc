@@ -14,6 +14,7 @@ export JAVA_HOME=/lib/jvm/default/
 export PATH="$PATH:$HOME/.local/bin"
 
 [[ -f ~/.env ]] && source ~/.env
+[[ -n $POWERLEVEL_10K_THEME ]] || export POWERLEVEL_10K_THEME="$HOME/.omz/theme/powerlevel10k/powerlevel10k.zsh-theme"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source $POWERLEVEL_10K_THEME
