@@ -3,9 +3,10 @@ nothing useful here :) \
 for syncing configs between my pc and my phone
 
 # Dependency
+- git
 
 ## Vim
-- git
+Nothing :)
 
 ## Hyprland
 - waybar (status bar)
@@ -22,5 +23,5 @@ for syncing configs between my pc and my phone
 - chromium  (optional) (auto start)
 
 ## Zsh
-- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) (zsh theme)
+Nothing :)
 
