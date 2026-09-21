@@ -4,8 +4,6 @@
 # Add specific needed config
 !.gitignore
 !.gitmodules
-!.p10k.zsh
-!.zshrc
 !.config/
 !.config/hypr/
 !.config/hypr/hyprland.conf
@@ -27,4 +25,9 @@
 !.local/
 !.local/bin/
 !.local/bin/wakasync
+
+# Zsh
+!.zshrc
+!.p10k.zsh
+!.oh-my-zsh/
 
