@@ -19,3 +19,6 @@ TRANSPARENT_APPS_CLASSES = {
 	"org.telegram.desktop",
 }
 
+-- Configuration
+MAIN_MOD = "SUPER"
+
