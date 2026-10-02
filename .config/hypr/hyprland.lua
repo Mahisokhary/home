@@ -21,6 +21,7 @@ TRANSPARENT_APPS_CLASSES = {
 
 -- Configuration
 MAIN_MOD = "SUPER"
+LAYOUT = "scrolling"
 
 -- Modules
 require("core.core")
