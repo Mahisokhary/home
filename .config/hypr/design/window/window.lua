@@ -1,4 +1,6 @@
+require("design.window.border")
 require("design.window.animation")
+require("design.window.transparent")
 
 hl.config({
 	general = {
