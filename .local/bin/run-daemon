@@ -1,0 +1,25 @@
+#!/bin/sh
+set -e
+
+ID=$1
+shift
+
+DAEMONS_DIR=~/.cache/qdaemon
+DAEMON_FILE=$DAEMONS_DIR/$ID
+
+if [[ -e $DAEMON_FILE ]] then
+	if [[ -f  $DAEMON_FILE ]] then
+		if kill -0 "$(cat $DAEMON_FILE)" &>/dev/null; then
+			exit
+		fi
+	else
+		echo "Invalid daemon file!"
+		exit 1
+	fi
+fi
+
+mkdir -p $DAEMONS_DIR
+echo "$$" > $DAEMON_FILE
+$@
+rm $DAEMON_FILE
+

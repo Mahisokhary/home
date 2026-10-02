@@ -27,6 +27,7 @@
 !.local/
 !.local/bin/
 !.local/bin/wakasync
+!.local/bin/run-daemon
 
 # Zsh
 !.zshrc
