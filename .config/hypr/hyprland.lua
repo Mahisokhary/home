@@ -24,4 +24,5 @@ MAIN_MOD = "SUPER"
 
 -- Modules
 require("core.core")
+require("layout.layout")
 
