@@ -27,4 +27,5 @@ LAYOUT = "scrolling"
 require("core.core")
 require("layout.layout")
 require("design.design")
+require("compatibility.compatibility")
 
