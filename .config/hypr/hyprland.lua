@@ -22,3 +22,6 @@ TRANSPARENT_APPS_CLASSES = {
 -- Configuration
 MAIN_MOD = "SUPER"
 
+-- Modules
+require("core.core")
+
