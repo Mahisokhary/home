@@ -1,1 +1,2 @@
+require("design.animation")
 
