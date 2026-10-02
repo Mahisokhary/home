@@ -1,3 +1,5 @@
+require("design.window.animation")
+
 hl.config({
 	general = {
 		gaps_in  = 5,
