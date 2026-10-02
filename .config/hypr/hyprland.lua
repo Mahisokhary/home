@@ -26,4 +26,5 @@ LAYOUT = "scrolling"
 -- Modules
 require("core.core")
 require("layout.layout")
+require("design.design")
 
