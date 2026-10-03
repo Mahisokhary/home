@@ -7,6 +7,10 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("waybar")
 	hl.exec_cmd("awww-daemon")
 	hl.exec_cmd("swaync")
+
+	hl.exec_cmd("rhythmbox", { workspace="special:magic silent" })
+	hl.exec_cmd("Telegram", { workspace="special:magic silent" })
+	hl.exec_cmd("chromium", { workspace="special:magic silent" })
 end)
 
 -- Apps
