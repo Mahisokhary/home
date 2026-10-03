@@ -17,10 +17,11 @@ Nothing :)
 - nautilus (file manager)
 - rofi (app launcher)
 - uwsm (session manager)
-- kitty (terminal emulator) (auto start)
+- kitty (terminal emulator)
 - rhythmbox (optional) (auto start)
 - telegram (optional) (auto start)
 - chromium  (optional) (auto start)
+- playerctl (playing media controll (pause/play, previous/next))
 
 ## Zsh
 Nothing :)
