@@ -3,10 +3,11 @@ hl.env("GTK_THEME", "Adwaita:dark")
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 
--- Daemons
-hl.exec_cmd("run-daemon waybar waybar")
-hl.exec_cmd("run-daemon awww-daemon awww-daemon")
-hl.exec_cmd("run-daemon swaync swaync")
+hl.on("hyprland.start", function()
+	hl.exec_cmd("waybar")
+	hl.exec_cmd("awww-daemon")
+	hl.exec_cmd("swaync")
+end)
 
 -- Apps
 APP_TERMINAL="kitty"
