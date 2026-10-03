@@ -1,5 +1,6 @@
 hl.bind(MAIN_MOD .. " + C", hl.dsp.window.close())
 hl.bind(MAIN_MOD .. " + V", hl.dsp.window.float({ action = "toggle" }))
+hl.bind(MAIN_MOD .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 
 hl.bind(MAIN_MOD .. " + left",  hl.dsp.focus({ direction = "left" }))
 hl.bind(MAIN_MOD .. " + right", hl.dsp.focus({ direction = "right" }))
