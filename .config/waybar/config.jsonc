@@ -32,9 +32,6 @@
 		"warp-on-scroll": false,
 		"format": "{icon}",
 		"format-icons": {
-			"1": "",
-			"19": "",
-			"20": "",
 			"special": "",
 		},
 		"sort-by": "id",
