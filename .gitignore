@@ -4,11 +4,13 @@
 # Add specific needed config
 !.gitignore
 !.gitmodules
-!.config/
-!.config/hypr/
-!.config/hypr/hyprland.conf
 !README.md
 !LICENSE
+
+# Hyprland
+!.config/
+!.config/hypr/
+!.config/hypr/**
 
 # Vim
 !.vimrc
@@ -25,6 +27,7 @@
 !.local/
 !.local/bin/
 !.local/bin/wakasync
+!.local/bin/run-daemon
 
 # Zsh
 !.zshrc
