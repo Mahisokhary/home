@@ -13,5 +13,5 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 hl.bind(MAIN_MOD .. " + print", hl.dsp.exec_cmd("grim"))
-hl.bind("print", hl.dsp.exec_cmd("sh grim -g $(sulrp)"))
+hl.bind("print", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
 
