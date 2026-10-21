@@ -3,4 +3,5 @@
 --
 
 require("compatibility.xwayland")
+require("compatibility.telegram")
 
