@@ -9,6 +9,7 @@ for syncing configs between my pc and my phone
 Nothing :)
 
 ## Hyprland
+> Tested on hyprland `0.56.2`
 - waybar (status bar)
 - awww (wallpaper manager)
 - hyprpolkitagent (authentication agent)
