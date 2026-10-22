@@ -22,6 +22,7 @@ Nothing :)
 - telegram (optional) (auto start)
 - chromium  (optional) (auto start)
 - playerctl (playing media controll (pause/play, previous/next))
+- wl-clipboard (CLI copy/paste utilities)
 
 ## Zsh
 Nothing :)
