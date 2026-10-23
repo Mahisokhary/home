@@ -22,6 +22,7 @@ TRANSPARENT_APPS_CLASSES = {
 	"org.gnome.Rhythmbox3",
 	"jetbrains-.*",
 	"org.telegram.desktop",
+	"org.gnome.Nautilus",
 }
 
 -- Configuration
