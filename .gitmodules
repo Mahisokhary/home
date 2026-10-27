@@ -21,3 +21,6 @@
 	path = .omz/theme/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
 
+[submodule "hyprland"]
+	path = .config/hypr
+	url = https://github.com/Mahisokhary/home-hyprland.git
