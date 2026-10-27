@@ -1,6 +1,7 @@
 local forms = {
 	"Create Automatic Playlist",
 	"Edit Automatic Playlist",
+	".* Properties",
 };
 
 hl.window_rule({
