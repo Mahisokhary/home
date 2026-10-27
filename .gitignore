@@ -6,12 +6,16 @@
 !.gitmodules
 !README.md
 !LICENSE
+!.config
 
 # Vim
 !.vimrc
 !.vim/
 !.vim/bundle/
 !.vim/bundle/**
+
+# Hyprland
+!.config/hypr
 
 # Waybar
 !.config/waybar/
