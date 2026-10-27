@@ -1,2 +1,0 @@
-require("design.workspace.animation")
-
