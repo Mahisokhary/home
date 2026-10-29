@@ -26,6 +26,7 @@
 !.local/
 !.local/bin/
 !.local/bin/wakasync
+!.local/bin/qoqnusmaster-home-install
 
 # Zsh
 !.zshrc
