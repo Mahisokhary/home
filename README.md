@@ -26,3 +26,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Mahisokhary/home/master/.l
 
 > Make sure to delete all old configurations to prevent conflicts
 
+# Update
+First make sure all newly added dependencies are installed \
+Then run following command at your home dir (or where configurations are installed):
+```shell
+git pull --recurse-submodules
+git submodule update --init --recursive
+```
