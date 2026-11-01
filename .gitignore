@@ -36,3 +36,8 @@
 !.omz/theme
 !.omz/theme/powerlevel10k
 
+# Systemd
+!.config/systemd
+!.config/systemd/user
+!.config/systemd/user/awww.service
+
