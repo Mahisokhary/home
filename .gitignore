@@ -17,11 +17,6 @@
 # Hyprland
 !.config/hypr
 
-# Waybar
-!.config/waybar/
-!.config/waybar/config.jsonc
-!.config/waybar/style.css
-
 # Bins
 !.local/
 !.local/bin/
