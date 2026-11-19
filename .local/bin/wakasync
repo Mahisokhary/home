@@ -12,7 +12,7 @@ wsync() {
 	wakatime-cli --sync-offline-activity "$1"
 }
 
-while [[ $(wcount) -gt 1 ]]; do # just for making sure
+while [ $(wcount) -gt 1 ]; do # just for making sure
 	wsync $(wcount)
 done
 
