@@ -1,6 +1,21 @@
 #!/bin/sh
 set -e
 
-git pull --recurse-submodules
-git submodule update --init --recursive
+git_status() {
+	git rev-parse HEAD
+	git submodule status --recursive | awk '{print $1, $2}'
+}
+
+before=$(git_status)
+git pull --recurse-submodules >/dev/null 2>&1
+git submodule update --init --recursive  >/dev/null 2>&1
+after=$(git_status)
+
+if [ "$before" != "$after" ]; then
+    echo "Updated to latest version"
+    exit 0
+else
+    echo "Already up to date"
+    exit 85
+fi
 
