@@ -5,5 +5,6 @@ git init -b main
 git remote add origin https://github.com/Mahisokhary/home.git
 git fetch
 git reset --hard origin/main
+git branch --set-upstream-to=origin/main
 git submodule update --init
 
